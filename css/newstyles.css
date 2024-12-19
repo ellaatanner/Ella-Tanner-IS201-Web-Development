@@ -1,0 +1,176 @@
+
+.youtube{
+    display:flex; 
+    justify-content:center; 
+    align-items:center;
+}
+
+.tableauPlaceholder{
+    display:flex; 
+    justify-content:center; 
+    align-items:center;
+}
+
+body {
+    background-color: rgb(211, 236, 251);
+}
+
+p{
+    font-family:'Times New Roman', Times, serif;
+}
+
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Page Header */
+.page-header {
+    border: 2.5px solid #0a1549;
+    padding: 10px;
+    margin: 20px auto;
+    width: fit-content;
+    text-align: center;
+}
+
+/* Travel Title */
+.travel-title {
+    color: #903e76; /* Custom Color */
+}
+
+/* Why Is Traveling Important Title */
+.travel-important-title {
+    color: #903e76;         /* Custom Color */
+    font-size: 28px;        /* Adjust size if needed */
+    font-weight: bold;      /* Keeps the text bold */
+    text-align: center;     /* Centers the text */
+    margin: 20px 0;         /* Adds vertical spacing */
+    text-decoration: underline;  /* Underlines the title */
+}
+/* Where to Begin Title */
+.where-to-begin-title {
+    color: #903e76;       /* Dark Blue */
+    font-size: 28px;      /* Text Size */
+    font-weight: bold;    /* Keeps the text bold */
+    text-align: center;   /* Centers the text */
+    margin: 20px 0;       /* Adds vertical spacing */
+    text-decoration: underline; /* Underlines the text */
+}
+/* The Point of Travel Title */
+.the-point-of-travel-title {
+    color: #903e76;          /* Yellow-Gold */
+    font-size: 28px;         /* Enlarged Text */
+    font-weight: bold;       /* Bold Text */
+    text-align: center;      /* Centered Text */
+    margin: 20px 0;          /* Vertical Spacing */
+    text-decoration: underline;  /* Underlined Title */
+}
+/* Interactive Tableau Graph Title */
+.interactive-tableau-title {
+    color: #903e76;            /* Purple Color */
+    font-size: 28px;           /* Text Size */
+    font-weight: bold;         /* Bold Text */
+    text-align: center;        /* Centered Text */
+    margin: 20px 0;            /* Vertical Spacing */
+    text-decoration: underline; /* Underlined Text */
+}
+/* Navigation Links Title */
+.navigation-title {
+    color: #903e76;   /* LinkedIn Blue */
+    font-size: 18px;  /* Enlarged Text */
+    font-weight: bold;/* Bold Text */
+    text-align: center;
+    margin: 20px 0;  /* Vertical Spacing */
+    text-decoration: underline; /* Underlined Title */
+}
+
+
+
+/* Main Content */
+main {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+    line-height: 1.8;
+}
+
+/* Image Styling */
+.image-with-border {
+    border: 6px solid #f1ab27;
+    padding: 5px;
+    margin: 20px auto;
+    display: block;
+    width: 300px;
+    height: 300px;
+}
+
+/* Section Divider */
+.page-line {
+    border: none;
+    border-top: 1.5px solid #903e76;
+    margin: 30px 0;
+}
+
+/* List Styles */
+ol {
+    margin: 20px;
+    padding-left: 40px;
+    list-style-type: decimal;
+    text-align: left;
+}
+
+ul {
+    list-style-type: disc;
+    padding-left: 60px;
+}
+
+/* Embedded Media */
+.youtube, .tableau {
+    display: flex;
+    justify-content: center;
+    margin: 30px 0;
+}
+
+/* Custom Sections */
+#youtube, #tableau {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/* Navigation Footer */
+.navigation-links {
+    text-align: center;
+    margin-top: 40px;
+}
+
+/* Footer Links */
+.footer-links a {
+    color: #0a1549;
+    font-size: 18px;
+    text-decoration: none;
+    margin-right: 15px;
+}
+
+/* Custom Styles for Interactive Media */
+iframe {
+    border: none;
+    width: 800px;
+    height: 400px;
+    margin: auto;
+    display: block;
+}
+
+/* Center Content Class */
+.center-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 100vh; /* Full screen height */
+    margin: 0;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+    line-height: 1.8; /* Adjust the line spacing */
+}
